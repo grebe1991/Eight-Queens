@@ -1,0 +1,28 @@
+body {
+    background-color: #FFF;
+    color: #1B1B1B;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+h1 {
+    margin-bottom: 0;
+}
+table {
+    border-collapse: collapse;
+    float: left;
+    margin: 20px;
+    background-color: #FCE6C9;
+}
+td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: bottom;
+}
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even) {
+    background-color: #C79048;
+}
+p {
+    clear: left;
+    margin-left: 20px;
+}
